@@ -30,5 +30,6 @@
   "ogImage": "https://raw.githubusercontent.com/jax-169/d/main/Image_1749045037439.jpg",
   "primerCSS": "<link href='https://cdn.bootcdn.net/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />",
   "needComment": 1,
+  "script": "<script>function openComments(){const e=document.getElementById('comments'),t=document.getElementById('cmButton');if(!e||!t)return;if(document.querySelector('iframe[src*=\"utteranc.es\"]'))return void(t.style.display='none');t.innerHTML='加载评论中<span class=\"AnimatedEllipsis\"></span>',e.innerHTML='';const o=document.createElement('script');o.src='https://utteranc.es/client.js',o.async=!0,o.crossOrigin='anonymous',o.setAttribute('repo','jax-169/d'),o.setAttribute('issue-term','title'),o.setAttribute('label','comment');const d=document.documentElement.getAttribute('data-color-mode')==='dark'?document.documentElement.getAttribute('data-dark-theme'):document.documentElement.getAttribute('data-light-theme');o.setAttribute('theme',d),o.onerror=function(){t.innerHTML='加载失败，点击重试',t.onclick=openComments},e.appendChild(o)}</script><style>.AnimatedEllipsis:after{content:'.';animation:ellipsis 1s infinite;display:inline-block;width:1em;text-align:left}@keyframes ellipsis{0%{content:'.'}33%{content:'..'}66%{content:'...'}}</style>",
   "commentLabelColor": "#6f42c1"
 }
