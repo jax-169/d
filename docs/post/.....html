@@ -15,7 +15,7 @@
 <meta property="og:image" content="https://raw.githubusercontent.com/jax-169/d/main/Image_1749045037439.jpg">
 <title>....</title>
 
-<meta name='description' content='作业答案分享开发与思考'>
+<meta name='description' content='6.7大家庭'>
 
 </head>
 <style>
@@ -40,7 +40,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 }
 
 </style>
-
+body {font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; line-height: 1.7; color: #24292f; background-color: #f6f8fa;} #header {box-shadow: 0 2px 5px rgba(0,0,0,0.05);} .postTitle {color: #2b3137; font-size: 40px; font-weight: bold;} .markdown-body {padding: 20px 0; line-height: 1.8;} .btn-block {transition: all 0.3s; font-weight: 600; border-radius: 8px;} .btn-block:hover {transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);} #comments {margin-top: 64px; padding: 20px; border-top: 1px solid var(--color-border-default);}
 
 
 
@@ -71,13 +71,13 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><p>那就~</p></div>
-<div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
+<div style="font-size:small;margin-top:8px;float:right;">本文内容仅供参考，转载请注明出处</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://jax-169.github.io/d">作业答案分享网站</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://jax-169.github.io/d">6.7大家庭</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -144,6 +144,6 @@ function iFrameLoading(){
 
 
 </script>
-<script>function openComments(){const e=document.getElementById('comments'),t=document.getElementById('cmButton');if(!e||!t)return;if(document.querySelector('iframe[src*="utteranc.es"]'))return void(t.style.display='none');t.innerHTML='加载评论中<span class="AnimatedEllipsis"></span>',e.innerHTML='';const o=document.createElement('script');o.src='https://utteranc.es/client.js',o.async=!0,o.crossOrigin='anonymous',o.setAttribute('repo','jax-169/d'),o.setAttribute('issue-term','title'),o.setAttribute('label','comment');const d=document.documentElement.getAttribute('data-color-mode')==='dark'?document.documentElement.getAttribute('data-dark-theme'):document.documentElement.getAttribute('data-light-theme');o.setAttribute('theme',d),o.onerror=function(){t.innerHTML='加载失败，点击重试',t.onclick=openComments},e.appendChild(o)}</script><style>.AnimatedEllipsis:after{content:'.';animation:ellipsis 1s infinite;display:inline-block;width:1em;text-align:left}@keyframes ellipsis{0%{content:'.'}33%{content:'..'}66%{content:'...'}}</style>
+<script>function openComments(){const cm=document.getElementById('comments'),cmBtn=document.getElementById('cmButton');if(!cm||!cmBtn||document.querySelector('iframe[src*="utteranc.es"]'))return cmBtn.style.display='none';cmBtn.innerHTML='加载中...';cm.innerHTML='';const s=document.createElement('script');s.src='https://utteranc.es/client.js';s.async=1;s.crossOrigin='anonymous';s.setAttribute('repo','jax-169/d');s.setAttribute('issue-term','title');s.setAttribute('label','comment');s.setAttribute('theme',document.documentElement.getAttribute('data-color-mode')==='dark'?document.documentElement.getAttribute('data-dark-theme'):document.documentElement.getAttribute('data-light-theme'));s.onerror=()=>{cmBtn.innerHTML='重试';cmBtn.onclick=openComments};cm.appendChild(s)}</script>
 
 </html>
